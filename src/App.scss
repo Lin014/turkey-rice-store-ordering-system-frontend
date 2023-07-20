@@ -1,0 +1,145 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import './custom.scss';
+
+.App {
+  padding: 0;
+}
+
+.text-center-algin {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.update-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  color: red;
+}
+
+.bg-light {
+  background-color: #fcecde !important;
+}
+
+.sub-title {
+  margin-bottom: 15px;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+.font-color-green {
+  color: green !important
+}
+
+.font-color-red {
+  color: red !important
+}
+
+.right-btn {
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(#f6cfaf, var(--bs-text-opacity)) !important;
+}
+
+.navbar-toggler:focus {
+  border: var(--bs-border-width) solid rgba(#feb272, 0.3);
+  box-shadow: 0 0 0 0.2rem rgba(#feb272, 0.2);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+.top-area {
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+.order-area {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.order-left-area {
+  width: 30%;
+  height: calc(100vh - 70px - 6.5rem);
+  overflow-y: auto;
+}
+
+.order-right-area {
+  width: 70%;
+  height: calc(100vh - 70px - 6.5rem);
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  overflow-y: auto;
+}
+
+.top {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.middle {
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-area div {
+  margin-right: 0.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.icon-table-cell button {
+  margin-left: 0.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 65%;
+  grid-gap: 0.5rem; 
+  margin-bottom: 1rem;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 0.5rem; 
+}
+
